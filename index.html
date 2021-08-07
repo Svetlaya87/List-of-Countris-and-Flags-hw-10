@@ -71,9 +71,9 @@
                     <td>{{item.alpha2Code}} ({{item.alpha3Code}})</td>
                     <td>{{item.capital}}</td>
                     
-                    <td v-for='flag in item.borders'>
+                    <td>
                       
-                      <img style='width:42px' class='shadow border' v-bind:src='flag'>
+                      <img  v-for='flag in item.borders' style='width:42px' class='shadow border m-1' v-bind:src='flag'>
                   
                         
                  
